@@ -50,7 +50,11 @@ dependencies {
 //    https://www.youtube.com/watch?v=ZnU21u1_fBE ( MavenLocal )
 //    implementation 'com.jkhan.myfirstexternallibrary:MyFirstExternalLibrary:1.0.0'
 //    https://www.youtube.com/watch?v=EzC-FXeZiIk&t=286s ( Jitpack )
-    implementation 'com.github.JKhanTechnoPhile:MyFirstExternalLibrary:1.0.2'
+//    implementation 'com.github.JKhanTechnoPhile:MyFirstExternalLibrary:1.0.2'
+//    https://betterprogramming.pub/how-to-create-and-publish-an-android-library-in-mavencentral-92397df94103
+//    https://www.waseefakhtar.com/android/publishing-your-first-android-library-to-mavencentral/
+//    https://getstream.io/blog/publishing-libraries-to-mavencentral-2021/
+    implementation "io.github.jkhantechnophile:MyFirstExternalLibrary:1.0.1"
 
     implementation 'com.google.dagger:dagger:2.45'
     kapt 'com.google.dagger:dagger-compiler:2.45'
